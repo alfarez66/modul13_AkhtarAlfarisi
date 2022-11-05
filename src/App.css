@@ -23,6 +23,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-body{
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.card{
+  background-color: #282c34;
+}
 .App-footer {
   background-color: #282c34;
   min-height: 10vh;
@@ -54,6 +67,8 @@
   text-transform: uppercase;
   text-align: start;
   letter-spacing: 0.08em;}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

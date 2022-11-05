@@ -2,7 +2,14 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
+import About from './components/pages/About';
+
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
 
@@ -10,10 +17,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-      </header>
+        <Navbar />
       <main className="App-body">
-        <Body />
+        <Routes>
+          <Route path='/' element = {<Home />}></Route>
+          <Route path='/About' element = {<About />}></Route>
+          <Route path='/Contact' element = {<Contact />}></Route>
+        </Routes>
       </main>
+      </header>
       <footer className="App-footer">
         <Footer />
       </footer>

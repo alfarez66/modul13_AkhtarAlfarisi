@@ -8,9 +8,9 @@ class Footer extends React.Component{
                 <div className="f-info">
                     <div className="f-me">
                         <div className="f-me-title">About Me</div>
-                        <p className="name">Akhtar Alfarisi</p>
-                        <p className="project">Netlab Bookstore</p>
-                        <p className="nim">320200401002</p>
+                        <p className="name">Other Project</p>
+                        <p className="project">Social media</p>
+                        <p className="nim">Recent movement</p>
                     </div>
                     <div className="f-me">
                         <div className="f-me-title">Trivia</div>
